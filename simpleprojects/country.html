@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Country Information UI</title>
+
+    <link rel="stylesheet" href="country.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>🌍 Country Info</h2>
+
+      <div>
+        <div class="search-box">
+          <input
+            type="text"
+            id="countryInput"
+            placeholder="Search country..."
+          />
+          <button id="searchBtn">Search</button>
+        </div>
+
+        <div class="info" id="countryInfo">
+          <h3 id="countryName"></h3>
+          <p><strong>Capital:</strong> <span id="capital"></span></p>
+          <p><strong>Population:</strong> <span id="population"></span></p>
+          <p><strong>Currency:</strong> <span id="currency"></span></p>
+          <p><strong>Region:</strong> <span id="region"></span></p>
+          <p><strong>Area:</strong> <span id="area"></span></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="country.js"></script>
+  </body>
+</html>
