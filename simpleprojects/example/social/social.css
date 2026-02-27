@@ -1,0 +1,168 @@
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+}
+
+/* HEADER */
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 30px;
+    background:#222;
+    color:white;
+}
+
+.logo{
+    font-size:22px;
+    font-weight:bold;
+}
+
+.search-box{
+    position:relative;
+}
+
+.search-box input{
+    padding:8px 75px 8px 10px;
+    border-radius:20px;
+    border:none;
+    outline:none;
+}
+
+.search-box i{
+    position:absolute;
+    right:10px;
+    top:50%;
+    transform:translateY(-50%);
+    color:gray;
+}
+
+/* BUTTON SECTION */
+.button-section{
+    display:flex;
+    justify-content:center;
+    gap:70px;
+    margin:20px 0;
+}
+
+.button-section button{
+    width:180px;
+    padding:10px;
+    border:none;
+    border-radius:8px;
+    background:#333;
+    color:white;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.button-section button:hover{
+    background:#555;
+}
+
+body{
+    background:#f0f2f5;
+    font-family:Arial, sans-serif;
+}
+
+/* CARD */
+.post-card{
+    width:380px;
+    background:white;
+    margin:40px auto;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.15);
+    overflow:hidden;
+}
+
+/* HEADER */
+.post-header{
+    display:flex;
+    align-items:center;
+    padding:12px;
+}
+
+.profile-img{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    background:#ccc;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:18px;
+}
+
+.user-info{
+    margin-left:10px;
+}
+
+.user-info h4{
+    margin:0;
+    font-size:14px;
+}
+
+.user-info span{
+    font-size:12px;
+    color:gray;
+}
+
+/* CONTENT */
+.post-content{
+    padding:0 12px 12px;
+    font-size:14px;
+}
+
+/* IMAGE */
+.post-image{
+    width:100%;
+    height:200px;
+    background:#ddd;
+}
+
+/* FOOTER */
+.post-footer{
+    display:flex;
+    justify-content:space-around;
+    padding:10px 0;
+    border-top:1px solid #eee;
+}
+
+.post-footer i{
+    cursor:pointer;
+    font-size:18px;
+    color:#555;
+}
+
+.post-footer i:hover{
+    color:#000;
+}
+
+
+
+
+
+
+.line{
+    display: grid;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* #count{
+    margin-right:
+} */
