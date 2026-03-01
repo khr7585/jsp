@@ -82,6 +82,7 @@ body{
     display:flex;
     align-items:center;
     padding:12px;
+    /* cursor: pointer; */
 }
 
 .profile-img{
@@ -93,6 +94,7 @@ body{
     align-items:center;
     justify-content:center;
     font-size:18px;
+    cursor: pointer;
 }
 
 .user-info{
@@ -147,4 +149,24 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
+}
+.profilebtn{
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 2px;
+}
+
+footer{
+    a{
+        font-weight: bold;
+        text-decoration: none;
+        color:rgb(198, 121, 121)
+    }
+    p{
+        text-align: center;
+    }
+    padding: 10px;
+    width: 100%;
+    height: max-content;
 }
