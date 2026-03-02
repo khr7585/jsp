@@ -16,3 +16,27 @@ likebtn.forEach(heart => {
     countSpan.textContent = count;
   });
 });
+function hemanthprofile(){
+    window.location.href="hemanthpro.html";
+}
+function sivaprofile(){
+    window.location.href="sivapro.html";
+}
+function jadalprofile(){
+    window.location.href="jadalpro.html";
+}
+function webpage(){
+    window.location.href="social.html";
+}
+//profile js
+function back() {
+        window.location.href = "social.html";
+      }
+      const button = document.getElementById("following");
+      button.addEventListener("click", function () {
+        if (button.innerText === "Follow") {
+          button.innerText = "Following";
+        } else {
+          button.innerText = "Follow";
+        }
+      });

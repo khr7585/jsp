@@ -24,20 +24,22 @@
     </header>
 
     <div class="button-section">
-      <button>All Posts</button>
-      <button>latest posts</button>
-      <button>your profile</button>
+      <button onclick="webpage()">All Posts</button>
+      <button onclick="webpage()">latest posts</button>
+      <button  onclick="hemanthprofile()">your profile</button>
     </div>
 
     <div class="cards">
       <div class="post-card">
         <!--1.card Header -->
         <div class="post-header">
+          <button style="background: none;border: none;" onclick="hemanthprofile()">
           <div class="profile-img">
             <i class="fa fa-user"></i>
           </div>
+            </button>
           <div class="user-info">
-            <button class="profilebtn" >
+            <button class="profilebtn" onclick="hemanthprofile()" >
             <h4>Hemanth Reddy</h4>
             </button></br>
             <span>2h ago</span>
@@ -65,11 +67,13 @@
       <div class="post-card">
         <!--2.card Header -->
         <div class="post-header">
+          <button style="background: none;border: none;" onclick="sivaprofile()">
           <div class="profile-img">
             <i class="fa fa-user"></i>
           </div>
+          </button>
           <div class="user-info">
-            <button class="profilebtn"><h4>SivaNanda Reddy</h4>
+            <button class="profilebtn" onclick="sivaprofile()"><h4>SivaNanda Reddy</h4>
             </button></br>
             <span>2h ago</span>
           </div>
@@ -96,11 +100,13 @@
       <div class="post-card">
         <!--3.card Header -->
         <div class="post-header">
+          <button style="background: none;border: none;" onclick="jadalprofile()">
           <div class="profile-img">
             <i class="fa fa-user"></i>
           </div>
+          </button>
           <div class="user-info">
-            <button class="profilebtn"><h4>Jadal Jamana</h4>
+            <button class="profilebtn" onclick="jadalprofile()"><h4>Jadal Jamana</h4>
             </button>
           </br><span>2h ago</span>
           </div>
