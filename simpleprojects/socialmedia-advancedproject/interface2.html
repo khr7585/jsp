@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Results Hub Portal</title>
+<style>
+body{
+font-family: Arial;
+background: linear-gradient(135deg,#4facfe,#00f2fe);
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.container{
+background:white;
+padding:30px;
+border-radius:10px;
+width:320px;
+text-align:center;
+box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+
+h1{
+margin-bottom:20px;
+}
+
+.result-box input,
+.result-box select{
+width:100%;
+padding:10px;
+margin:10px 0;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+button{
+width:100%;
+padding:10px;
+background:#4facfe;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#2196f3;
+}
+
+.result-card{
+margin-top:20px;
+padding:15px;
+border-radius:8px;
+background:#f5f5f5;
+display:none;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>📊 Results Hub Portal</h1>
+
+<div class="result-box">
+
+<input type="text" id="roll" placeholder="Enter Roll Number">
+
+<select id="exam">
+<option value="">Select Exam</option>
+<option>Semester 1</option>
+<option>Semester 2</option>
+<option>Semester 3</option>
+</select>
+
+<button onclick="checkResult()">Check Result</button>
+
+</div>
+
+<div id="resultCard" class="result-card">
+<h2>Student Result</h2>
+<p id="name"></p>
+<p id="marks"></p>
+<p id="status"></p>
+</div>
+
+</div>
+
+<script>
+    function checkResult(){
+
+let roll = document.getElementById("roll").value
+let exam = document.getElementById("exam").value
+
+if(roll=="" || exam==""){
+alert("Please enter roll number and exam")
+return
+}
+
+document.getElementById("resultCard").style.display="block"
+
+document.getElementById("name").innerHTML="Name : Hemanth Reddy"
+document.getElementById("marks").innerHTML="Marks : 82%"
+document.getElementById("status").innerHTML="Status : Pass ✅"
+
+}
+</script>
+
+
+</body>
+</html>
