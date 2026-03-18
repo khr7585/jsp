@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1e293b;
+  padding: 10px 20px;
+}
+
+.navbar input {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.nav-links a {
+  margin-left: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Layout */
+.container {
+  display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 200px;
+  background: #1e293b;
+  padding: 20px;
+  height: 100vh;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 10px 0;
+}
+
+/* Feed */
+.feed {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Create Post */
+.create-post {
+  background: #334155;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.create-post input {
+  width: 70%;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+.create-post button {
+  padding: 8px 12px;
+  margin-left: 10px;
+  border: none;
+  background: #3b82f6;
+  color: white;
+  border-radius: 5px;
+}
+
+/* Post */
+.post {
+  background: #334155;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.actions {
+  margin-top: 10px;
+}
+
+.actions span {
+  margin-right: 15px;
+  cursor: pointer;
+}
